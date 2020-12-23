@@ -328,7 +328,7 @@ a.navbar-brand span {
         background-size: 100%;
         background-repeat: no-repeat;
         height: auto;
-        padding-bottom: 12%;
+        padding-bottom: 22%;
         padding-left: 14%;
         padding-top: 90px;
     }
@@ -345,5 +345,11 @@ a.navbar-brand span {
     }
     .form_fill {
         margin-left: 0;
+    }
+    .landing.right .list_content {
+        max-width: 86%;
+    }
+    .landing img {
+        height: auto;
     }
 }
