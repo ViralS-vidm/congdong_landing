@@ -6,7 +6,7 @@ body {
     font-size: 16px;
     background-color: #fbfbfb !important;
     position: absolute;
-    height: 100%;
+    /*height: 100%;*/
     width: 100%;
     overflow-x: hidden;
 }
@@ -29,8 +29,18 @@ ol, li {
 .flex {
     display: flex;
 }
-
-/* DEFAULT */
+.breadcrumb {
+    background-color: transparent !important;
+    padding-left: 0 !important;
+    padding-bottom: 0px !important;
+}
+.breadcrumb li,
+.breadcrumb li a {
+    font-size: 13px;
+    color: #222222 !important;
+    font-family: 'Montserrat';
+}
+    /* DEFAULT */
 .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
     margin-left: 31px;
@@ -311,6 +321,125 @@ a.navbar-brand span {
     border: none;
     font-size: 14px;
 }
+
+
+/* NEWS */
+#news {
+    background-color: #fbfbfb;
+}
+.banner_news img {
+    max-height: 300px;
+}
+.news_content {
+    width: 100%;
+    display: inline-block;
+}
+.news_content .content_news h5 {
+    font-size: 18px;
+    color: #111111;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+.list_content_news {
+    margin-left: -15px;
+}
+.list_content_news li .content_news_list {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 4px 1px #ccc;
+}
+.list_content_news li img {
+    width: 100%;
+}
+.list_content_news li:hover .content_news_list a {
+    color: #457211;
+}
+.list_content_news li .content_news_list a {
+    display: block;
+    font-size: 14px;
+    font-family: 'Montserrat-Medium';
+    color: #111111;
+    text-decoration: none;
+}
+.list_content_news li .content_news_list span {
+    font-size: 12px;
+    font-family: 'Montserrat-Italic';
+}
+
+.show_more button {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #111;
+}
+.show_more:hover button {
+    text-decoration: none;
+    color: #111;
+}
+.lastest_news,
+.list_news {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 4px 1px #ccc;
+}
+.lastest_news h5,
+.list_news h5 {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.list_latest_news li img {
+    width: 60px;
+    height: 60px;
+}
+
+.list_latest_news li .grid span {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.list_latest_news li .grid p {
+    font-size: 12px;
+    color: #999999;
+}
+
+.list_news li a {
+    font-size: 14px;
+    color: #111111;
+    display: block;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 20px;
+}
+.list_news li a:before {
+    display: inline-block;
+    content: '';
+    background-image: url("../img/dropdown.png");
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: auto;
+}
+
+/* ================ */
+
+
+/* MEDIA */
+
+
+
+
 
 @media (min-width: 1366px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
