@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 16px;
     background-color: #fbfbfb !important;
@@ -10,46 +11,57 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+
 ol, li {
     list-style: none;
 }
+
 .grid {
     display: grid;
 }
+
 .grid-2 {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
+
 .grid-3 {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
+
 .grid-6 {
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 0 20px;
 }
+
 .flex {
     display: flex;
 }
+
 .breadcrumb {
     background-color: transparent !important;
     padding-left: 0 !important;
     padding-bottom: 0px !important;
 }
+
 .breadcrumb li,
 .breadcrumb li a {
     font-size: 13px;
     color: #222222 !important;
     font-family: 'Montserrat';
 }
-    /* DEFAULT */
+
+/* DEFAULT */
 .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
     margin-left: 31px;
 }
+
 a.navbar-brand img {
     width: 55px;
     height: 55px;
     border-radius: 100%;
 }
+
 a.navbar-brand span {
     font-size: 16px;
     font-family: '';
@@ -60,20 +72,24 @@ a.navbar-brand span {
 .collapse.not_grow {
     flex-grow: inherit;
 }
+
 /* =============== */
 
 .banner h2 {
     font-size: 80px;
     font-family: 'PlayfairDisplay-Italic';
 }
+
 .banner .title_banner {
     padding-right: 80px !important;
 }
+
 .banner .content p {
     font-size: 20px;
     font-family: 'Montserrat-Medium';
     margin-bottom: 10px;
 }
+
 .landing img {
     width: 100%;
     height: 650px;
@@ -85,17 +101,21 @@ a.navbar-brand span {
     font-family: 'PlayfairDisplay-BoldItalic';
 
 }
+
 .landing .content_landing h1 {
     font-family: 'Montserrat-Black';
     font-size: 30px;
     color: #222222;
 }
+
 .landing.right .list_content {
     max-width: 61%;
 }
+
 .landing.left .list_content {
     max-width: 75%;
 }
+
 .landing .list_content li {
     margin-bottom: 15px;
     padding-left: 30px;
@@ -110,6 +130,7 @@ a.navbar-brand span {
     color: #222222;
     line-height: 34px;
 }
+
 .landing .list_content li span:before {
     display: inline-block;
     content: '';
@@ -125,6 +146,7 @@ a.navbar-brand span {
 .news {
     background-color: #f7f8f9;
 }
+
 .news h2 {
     color: #429301;
     font-family: 'PlayfairDisplay-BoldItalic';
@@ -141,14 +163,17 @@ a.navbar-brand span {
     width: 410px;
     height: 250px;
 }
+
 .news li span {
     font-size: 18px;
     color: #000000;
     font-family: 'Montserrat';
 }
+
 .news li ol {
     display: flex;
 }
+
 .news li ol li span {
     font-size: 13px;
     margin-right: 5px;
@@ -156,6 +181,7 @@ a.navbar-brand span {
     align-self: center;
     position: relative;
 }
+
 .news li ol li span:after {
     display: inline-block;
     content: '';
@@ -175,12 +201,14 @@ a.navbar-brand span {
     height: 1226px;
     padding-top: 170px;
 }
+
 .how_to_join h4,
 .package .title_package .text-center h4 {
     font-size: 24px;
     color: #429301;
     font-family: 'PlayfairDisplay-BoldItalic';
 }
+
 .how_to_join h1,
 .how_to_join h2 {
     font-size: 70px;
@@ -188,6 +216,7 @@ a.navbar-brand span {
     display: table-caption;
     line-height: 100px;
 }
+
 .how_to_join h1 {
     font-family: 'Montserrat-Black';
     color: #222;
@@ -197,10 +226,12 @@ a.navbar-brand span {
     color: #429301;
     font-family: 'Montserrat-BlackItalic';
 }
+
 .package {
     padding: 140px 0;
     background-color: #f6f7f8;
 }
+
 .package .title_package {
     background-image: url("../img/bg_package.png");
     max-height: 253px;
@@ -208,6 +239,7 @@ a.navbar-brand span {
     width: 100%;
     position: relative;
 }
+
 .package .title_package .text-center {
     position: absolute;
     top: 0;
@@ -217,6 +249,7 @@ a.navbar-brand span {
     margin: auto;
     height: fit-content;
 }
+
 .package .title_package .text-center h1 {
     font-size: 36px;
     font-family: 'Montserrat-Black';
@@ -227,27 +260,32 @@ a.navbar-brand span {
 .list_package {
     width: 100%;
 }
+
 .list_package li {
-   background-color: #fff;
+    background-color: #fff;
     border-radius: 8px;
     position: relative;
     min-height: 330px;
     overflow: hidden;
     box-shadow: 0 0 4px 1px #ebf3fa;
 }
+
 .list_package li:hover {
     box-shadow: 0 0 6px 2px #ebf3fa;
     cursor: pointer;
 }
+
 .list_package li h5 {
     font-size: 18px;
     font-family: 'PlayfairDisplay-BoldItalic';
 }
+
 .list_package li p.price {
     font-size: 14px;
     font-family: 'Montserrat-Bold';
     color: #ff1212;
 }
+
 .list_package li button {
     position: absolute;
     bottom: 12px;
@@ -261,13 +299,16 @@ a.navbar-brand span {
     border: none;
     font-size: 14px;
 }
+
 .list_package li:hover button {
     background-color: #55b62a;
 }
+
 .list_package .infomation_package span {
     font-size: 13px;
     font-family: 'Montserrat-Medium';
 }
+
 .list_package .sale {
     position: absolute;
     top: 25px;
@@ -277,6 +318,7 @@ a.navbar-brand span {
     color: white;
     transform: rotate(45deg);
 }
+
 .list_package .sale span {
     font-size: 13px;
     font-family: 'Montserrat-Medium';
@@ -298,15 +340,18 @@ a.navbar-brand span {
     font-size: 36px;
     color: #287e02;
 }
+
 .form_fill p {
     font-size: 16px;
     font-family: 'Montserrat-Italic';
     margin-bottom: 8px;
 }
+
 .form_fill .form-group label {
     font-size: 14px;
     font-family: 'Montserrat-Italic';
 }
+
 .form_fill .form-group input {
     border: solid 1px #d9d9d9;
     background-color: #ffffff;
@@ -327,33 +372,41 @@ a.navbar-brand span {
 #news {
     background-color: #fbfbfb;
 }
+
 .banner_news img {
     max-height: 300px;
 }
+
 .news_content {
     width: 100%;
     display: inline-block;
 }
+
 .news_content .content_news h5 {
     font-size: 18px;
     color: #111111;
     font-family: 'Montserrat';
     font-weight: normal;
 }
+
 .list_content_news {
     margin-left: -15px;
 }
+
 .list_content_news li .content_news_list {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 4px 1px #ccc;
 }
+
 .list_content_news li img {
     width: 100%;
 }
+
 .list_content_news li:hover .content_news_list a {
     color: #457211;
 }
+
 .list_content_news li .content_news_list a {
     display: block;
     font-size: 14px;
@@ -361,6 +414,7 @@ a.navbar-brand span {
     color: #111111;
     text-decoration: none;
 }
+
 .list_content_news li .content_news_list span {
     font-size: 12px;
     font-family: 'Montserrat-Italic';
@@ -371,16 +425,19 @@ a.navbar-brand span {
     font-family: 'Montserrat';
     color: #111;
 }
+
 .show_more:hover button {
     text-decoration: none;
     color: #111;
 }
+
 .lastest_news,
 .list_news {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 4px 1px #ccc;
 }
+
 .lastest_news h5,
 .list_news h5 {
     font-size: 16px;
@@ -404,6 +461,7 @@ a.navbar-brand span {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+
 .list_latest_news li .grid p {
     font-size: 12px;
     color: #999999;
@@ -420,6 +478,7 @@ a.navbar-brand span {
     position: relative;
     padding-left: 20px;
 }
+
 .list_news li a:before {
     display: inline-block;
     content: '';
@@ -432,13 +491,43 @@ a.navbar-brand span {
     margin: auto;
 }
 
+.banner_detail {
+    width: 100%;
+    max-height: 500px;
+}
+
+.detail_news {
+    background-color: #fff;
+    box-shadow: 0 0 4px 1px #ccc;
+    width: 100%;
+    display: inline-block;
+    padding: 40px 57px;
+}
+
+.detail_news h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Black';
+    margin-bottom: 40px;
+}
+
+.detail_news p {
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Montserrat';
+}
+
+.detail_news .datetime {
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Montserrat-Italic';
+
+}
+
 /* ================ */
 
 
 /* MEDIA */
-
-
-
 
 
 @media (min-width: 1366px) {
@@ -453,6 +542,7 @@ a.navbar-brand span {
     .grid_images li:last-child {
         display: none;
     }
+
     .how_to_join {
         background-size: 100%;
         background-repeat: no-repeat;
@@ -461,23 +551,29 @@ a.navbar-brand span {
         padding-left: 14%;
         padding-top: 90px;
     }
+
     .news li img {
         width: 100%;
         height: 213px;
     }
+
     .how_to_join h1, .how_to_join h2 {
         font-size: 55px;
         line-height: 70px;
     }
+
     .package {
         padding: 50px 0 0;
     }
+
     .form_fill {
         margin-left: 0;
     }
+
     .landing.right .list_content {
         max-width: 86%;
     }
+
     .landing img {
         height: auto;
     }
